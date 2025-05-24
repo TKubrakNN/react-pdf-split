@@ -1,0 +1,32 @@
+.pdf-splitter-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.pdf-content {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.split-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 2px solid red;
+  pointer-events: none;
+}
+
+.delete-icon {
+  position: absolute;
+  right: 5px;
+  top: -10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+  pointer-events: auto;
+}
